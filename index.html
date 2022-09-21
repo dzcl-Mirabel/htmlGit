@@ -5,7 +5,65 @@
 		<title>任小的作业</title>
 	</head>
 	<body>
-		<div>test</div>
-	  
+		<table border="1">
+			<tr>
+				<th colspan="2">
+					<h3>信 息 统 计 表</h3>
+				</th>
+			</tr>
+			<tr>
+				<td>姓名：</td>
+				<td>
+					<input type="text" name="userName">
+				</td>
+			</tr>
+			<tr>
+				<td>年龄：</td>
+				<td>
+					<input type="number" name="userName">
+				</td>
+			</tr>
+			<tr>
+				<td>性别：</td>
+				<td>
+					<input type="radio" checked="checked" name="sex">男
+					<input type="radio" name="sex">女
+				</td>
+			</tr>
+			<tr>
+				<td>爱好：</td>
+				<td>
+					<div><input type="checkbox" name="hobby" value="1">旅游</div>
+					<div><input type="checkbox" checked="checked" name="hobby" value="2">登山</div>
+					<div><input type="checkbox" name="hobby" value="3">健身</div>
+					<div><input type="checkbox" name="hobby" value="5">游泳</div>
+				</td>
+			</tr>
+			<tr>
+				<td>学历：</td>
+				<td>
+					<select name="degree">
+						<option value="">--请选择--</option>
+						<option value="1" selected="selected">专科</option>
+						<option value="2">本科</option>
+						<option value="3">硕士</option>
+						<option value="4">博士及以上</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>自我介绍</td>
+				<td>
+					<textarea name="comment" rows="5" cols="30">自我介绍：</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" value="重置">
+					<input type="reset" value="提交">
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>
